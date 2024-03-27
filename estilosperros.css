@@ -1,0 +1,31 @@
+.mperros{
+    display: inline;
+    
+}
+.h1b{
+    text-align: center;
+}
+.texto2{
+    text-align: center;
+}
+.h2b{
+    text-align: center                                                                                                                      ;
+}     
+.Inicio2{
+    text-align: right;
+}
+.Iniciocachulo{
+    text-align: right;
+}
+
+.Cachulo{
+    display: inline;
+    
+} 
+.textoinfocachulo{
+    display: flex;    
+}
+.textoperrocachulo{
+    padding-left: 50px;
+    padding-top: 75px;
+}
