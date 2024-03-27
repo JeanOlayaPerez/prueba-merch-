@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* titulo 1*/
+h1 {
+    text-align: center;
+    background-color: rgb(218, 188, 19);
+    color: white;
+    padding: 3%;
+   
+    font-size:  50px; /* Ajusta el tamaño del título */
+}
+.texto-centrado {
+    max-width: calc(100% - 20cm); 
+    margin: 0 auto;
+    text-align: justify; 
+    padding: 10px; 
+    font-size: 24px;
+    line-height: 1.5;
+}
+/* titulo 2 */
+h2 {
+    text-align: center; 
+    margin-top: 10px; 
+    padding: 40px;
+    font-size: 36px;
+}
+/*listas des. */
+nav ul {
+    background-color: darkgrey;
+    width: 290px;
+    height: 600px; 
+    list-style-type: none;
+    padding: 10px;
+    position: absolute;
+    left: 2cm;
+    top: 12cm;
+}
+
+/* Ajusta de bordes */
+nav ul li {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+nav ul li .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width: 200;
+    margin-right: 20px;
+}
+nav ul li img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+nav ul li .info a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+
+
+
+/* conf sub paginas perritos */
+
+.ficha-perro {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.ficha-perro img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.datos-perro {
+    font-size: 18px;
+}
